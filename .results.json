@@ -1,0 +1,103 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 5,
+    "passes": 4,
+    "pending": 0,
+    "failures": 1,
+    "start": "2021-04-29T02:35:21.585Z",
+    "end": "2021-04-29T02:35:21.612Z",
+    "duration": 27
+  },
+  "tests": [
+    {
+      "title": "invokes the `drawChromeBoiAtCoords` method within `handleMouseMove`, passing the captured x and y values of the mouse from the event",
+      "fullTitle": "<ChromeBoisDomain /> invokes the `drawChromeBoiAtCoords` method within `handleMouseMove`, passing the captured x and y values of the mouse from the event",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "has an event listener for clicks on the <canvas> element that triggers `toggleCycling`",
+      "fullTitle": "<ChromeBoisDomain /> has an event listener for clicks on the <canvas> element that triggers `toggleCycling`",
+      "duration": 4,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected false to equal true",
+        "showDiff": true,
+        "actual": "false",
+        "expected": "true",
+        "operator": "strictEqual",
+        "stack": "AssertionError: expected false to equal true\n    at Context.<anonymous> (test/ChromeBoisDomainTest.js:41:37)\n    at processImmediate (node:internal/timers:464:21)"
+      }
+    },
+    {
+      "title": "has an event listener for key presses on the <canvas> element that triggers `resize`",
+      "fullTitle": "<ChromeBoisDomain /> has an event listener for key presses on the <canvas> element that triggers `resize`",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "when the 'a' key is pressed, `resize` is invoked with the argument of '+'",
+      "fullTitle": "<ChromeBoisDomain /> when the 'a' key is pressed, `resize` is invoked with the argument of '+'",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "when the 's' key is pressed, `resize` is invoked with the argument of '-'",
+      "fullTitle": "<ChromeBoisDomain /> when the 's' key is pressed, `resize` is invoked with the argument of '-'",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "has an event listener for clicks on the <canvas> element that triggers `toggleCycling`",
+      "fullTitle": "<ChromeBoisDomain /> has an event listener for clicks on the <canvas> element that triggers `toggleCycling`",
+      "duration": 4,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected false to equal true",
+        "showDiff": true,
+        "actual": "false",
+        "expected": "true",
+        "operator": "strictEqual",
+        "stack": "AssertionError: expected false to equal true\n    at Context.<anonymous> (test/ChromeBoisDomainTest.js:41:37)\n    at processImmediate (node:internal/timers:464:21)"
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "invokes the `drawChromeBoiAtCoords` method within `handleMouseMove`, passing the captured x and y values of the mouse from the event",
+      "fullTitle": "<ChromeBoisDomain /> invokes the `drawChromeBoiAtCoords` method within `handleMouseMove`, passing the captured x and y values of the mouse from the event",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "has an event listener for key presses on the <canvas> element that triggers `resize`",
+      "fullTitle": "<ChromeBoisDomain /> has an event listener for key presses on the <canvas> element that triggers `resize`",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "when the 'a' key is pressed, `resize` is invoked with the argument of '+'",
+      "fullTitle": "<ChromeBoisDomain /> when the 'a' key is pressed, `resize` is invoked with the argument of '+'",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "when the 's' key is pressed, `resize` is invoked with the argument of '-'",
+      "fullTitle": "<ChromeBoisDomain /> when the 's' key is pressed, `resize` is invoked with the argument of '-'",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
